@@ -1,0 +1,4 @@
+caine
+*.o
+.env
+caine_settings.txt

@@ -1,0 +1,11 @@
+services:
+  caine:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATA_FILE: /data/caine_settings.txt
+    volumes:
+      - caine-data:/data
+volumes:
+  caine-data:
