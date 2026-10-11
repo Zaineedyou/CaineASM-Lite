@@ -15,5 +15,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY --from=build /src/caine /usr/local/bin/caine
 USER caine
 ENV DATA_FILE=/data/caine_settings.txt
-VOLUME /data
 CMD ["caine"]
