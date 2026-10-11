@@ -37,7 +37,7 @@ Aktifkan **Message Content Intent** di Discord Developer Portal.
 DISCORD_TOKEN, GROQ_API_KEY (wajib); BOT_PREFIX (Caine), SYSTEM_PROMPT, BOT_OWNER_ID, MAX_HISTORY (30), AI_RATE_MAX (10), AI_RATE_WINDOW_SEC (60), DATA_FILE, DEFAULT_MODEL, VISION_MODEL.
 
 ## Status tes
-Dites penuh terhadap mock lokal (gateway + REST + Groq via TLS), unit test util/json/state, dan valgrind. Belum dites langsung ke Discord/Groq asli.
+Dites penuh menggunakan railway, lolos build and deploy hingga service online
 
 ## Lisensi
-Kode sumber CaineASM Lite dilisensikan di bawah **GNU Affero General Public License v3.0 saja** (`AGPL-3.0-only`). Lihat [LICENSE](LICENSE) untuk teks lengkap.
+Kode sumber CaineASM Lite dilisensikan di bawah **GNU Affero General Public License v3.0 Only** (`AGPL-3.0-only`). Lihat [LICENSE](LICENSE) untuk teks lengkap.
