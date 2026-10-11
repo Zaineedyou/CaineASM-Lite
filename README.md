@@ -38,3 +38,6 @@ DISCORD_TOKEN, GROQ_API_KEY (wajib); BOT_PREFIX (Caine), SYSTEM_PROMPT, BOT_OWNE
 
 ## Status tes
 Dites penuh terhadap mock lokal (gateway + REST + Groq via TLS), unit test util/json/state, dan valgrind. Belum dites langsung ke Discord/Groq asli.
+
+## Lisensi
+Kode sumber CaineASM Lite dilisensikan di bawah **GNU Affero General Public License v3.0 saja** (`AGPL-3.0-only`). Lihat [LICENSE](LICENSE) untuk teks lengkap.
