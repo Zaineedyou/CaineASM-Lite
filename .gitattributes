@@ -1,0 +1,4 @@
+# Keep the repository language bar focused on the primary implementation languages.
+tests/*.py linguist-detectable=false
+Dockerfile linguist-detectable=false
+Makefile linguist-detectable=false
